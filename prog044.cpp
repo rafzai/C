@@ -1,24 +1,23 @@
-// ÇÎ¢Æ§®‚ ‡†ß≠ÆÊ¢•‚≠Î© ‚•™·‚
+// –í—ã–≤–æ–¥–∏—Ç —Ä–∞–∑–Ω–æ—Ü–≤–µ—Ç–Ω—ã–π —Ç–µ–∫—Å—Ç
 #include <conio.h>
 void main()
 {
    clrscr();
    textcolor(RED);
-   cprintf("ä†¶§Î© \n\r");
-   textcolor(LIGHTRED); // Æ‡†≠¶•¢Î© ß†¨•≠®¨ †´Î¨
-   cprintf("ÆÂÆ‚≠®™ \n\r");
+   cprintf("–ö–∞–∂–¥—ã–π \n\r");
+   textcolor(LIGHTRED); // –æ—Ä–∞–Ω–∂–µ–≤—ã–π –∑–∞–º–µ–Ω–∏–º –∞–ª—ã–º
+   cprintf("–æ—Ö–æ—Ç–Ω–∏–∫ \n\r");
    textcolor(YELLOW);
-   cprintf("¶•´†•‚ \n\r");
+   cprintf("–∂–µ–ª–∞–µ—Ç \n\r");
    textcolor(GREEN);
-   cprintf("ß≠†‚Ï \n\r");
+   cprintf("–∑–Ω–∞—Ç—å \n\r");
    textcolor(LIGHTBLUE);
-   cprintf("£§• \n\r");
+   cprintf("–≥–¥–µ \n\r");
    textcolor(BLUE);
-   cprintf("·®§Ô‚ \n\r");
+   cprintf("—Å–∏–¥—è—Ç \n\r");
    textcolor(MAGENTA);
-   cprintf("‰†ß†≠Î!\n\r");
+   cprintf("—Ñ–∞–∑–∞–Ω—ã!\n\r");
    textcolor(LIGHTGRAY);
-   cprintf("\nÑ´Ô ß†¢•‡Ë•≠®Ô ≠†¶¨®‚• <Enter>");
+   cprintf("\n–î–ª—è –∑–∞–≤–µ—Ä—à–µ–Ω–∏—è –Ω–∞–∂–º–∏—Ç–µ <Enter>");
    getch();
 }
-
