@@ -1,25 +1,26 @@
-// ÇÎ¢Æ§®‚ ≠†ß¢†≠®• §≠Ô ≠•§•´®
+// –í—ã–≤–æ–¥–∏—Ç –Ω–∞–∑–≤–∞–Ω–∏–µ –¥–Ω—è –Ω–µ–¥–µ–ª–∏
 #include <stdio.h>
 #include <conio.h>
 void main()
 {
-   int nd; // ≠Æ¨•‡ §≠Ô ≠•§•´®
+   int nd; // –Ω–æ–º–µ—Ä –¥–Ω—è –Ω–µ–¥–µ–ª–∏
 
-   puts("\nÇ¢•§®‚• ≠Æ¨•‡ §≠Ô ≠•§•´® (1..7");
+   puts("\n–í–≤–µ–¥–∏—Ç–µ –Ω–æ–º–µ—Ä –¥–Ω—è –Ω–µ–¥–µ–ª–∏ (1..7");
    printf("->");
    scanf("%i", &nd);
    switch (nd)
    {
-     case 1:  puts("èÆ≠•§•´Ï≠®™"); break;
-     case 2:  puts("Ç‚Æ‡≠®™");     break;
-     case 3:  puts("ë‡•§†");       break;
-     case 4:  puts("ó•‚¢•‡£");     break;
-     case 5:  puts("èÔ‚≠®Ê†");     break;
-     case 6:  puts("ë„°°Æ‚†");     break;
-     case 7:  puts("ÇÆ·™‡•·•≠Ï•"); break;
+     case 1:  puts("–ü–æ–Ω–µ–¥–µ–ª—å–Ω–∏–∫"); break;
+     case 2:  puts("–í—Ç–æ—Ä–Ω–∏–∫");     break;
+     case 3:  puts("–°—Ä–µ–¥–∞");       break;
+     case 4:  puts("–ß–µ—Ç–≤–µ—Ä–≥");     break;
+     case 5:  puts("–ü—è—Ç–Ω–∏—Ü–∞");     break;
+     case 6:  puts("–°—É–±–±–æ—Ç–∞");     break;
+     case 7:  puts("–í–æ—Å–∫—Ä–µ—Å–µ–Ω—å–µ"); break;
      
-        default: puts("ó®·´Æ §Æ´¶≠Æ °Î‚Ï ¢ §®†Ø†ßÆ≠• 1..7");
+        default: puts("–ß–∏—Å–ª–æ –¥–æ–ª–∂–Ω–æ –±—ã—Ç—å –≤ –¥–∏–∞–ø–∞–∑–æ–Ω–µ 1..7");
    }
    getch();
 }
+
 
