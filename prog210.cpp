@@ -1,4 +1,4 @@
-// ”г­ЄжЁп "д Єв®аЁ «"
+// Р¤СѓРЅРєС†РёСЏ "С„Р°РєС‚РѕСЂРёР°Р»"
 #include "stdio.h"
 #include "conio.h"
 
@@ -13,14 +13,13 @@ unsigned long factorial(int x)
 void main()
 {
     unsigned long f;
-    puts("\n’ Ў«Ёж  д Єв®аЁ «®ў");
+    puts("\nРўР°Р±Р»РёС†Р° С„Р°РєС‚РѕСЂРёР°Р»РѕРІ");
     for (int n = 1; n <= 12; n++)
     {
         f = factorial(n);
         printf("%2i  %10u\n", n, f);
     }
     
-    puts("\n„«п § ўҐаиҐ­Ёп а Ў®вл ­ ¦¬ЁвҐ <Enter>");
+    puts("\nР”Р»СЏ Р·Р°РІРµСЂС€РµРЅРёСЏ СЂР°Р±РѕС‚С‹ РЅР°Р¶РјРёС‚Рµ <Enter>");
     getch();
 }
-
