@@ -1,24 +1,24 @@
-// Фото - вычисляет цену заказа печати фотографий
+// ╨д╨╛╤В╨╛ - ╨▓╤Л╤З╨╕╤Б╨╗╤П╨╡╤В ╤Ж╨╡╨╜╤Г ╨╖╨░╨║╨░╨╖╨░ ╨┐╨╡╤З╨░╤В╨╕ ╤Д╨╛╤В╨╛╨│╤А╨░╤Д╨╕╨╣
 
 #include "stdio.h"
 #include "conio.h"
 void main()
 {
-  int k; // количество фотографий
-  int f; // формат: 1 - 9х12; 2 - 12х15; 3 - 18х24
+  int k; // ╨║╨╛╨╗╨╕╤З╨╡╤Б╤В╨▓╨╛ ╤Д╨╛╤В╨╛╨│╤А╨░╤Д╨╕╨╣
+  int f; // ╤Д╨╛╤А╨╝╨░╤В: 1 - 9╤Е12; 2 - 12╤Е15; 3 - 18╤Е24
 
-  float cena;     // цена за 1 шт
-  float sum;      // сумма
-  float discount; // скидка
+  float cena;     // ╤Ж╨╡╨╜╨░ ╨╖╨░ 1 ╤И╤В
+  float sum;      // ╤Б╤Г╨╝╨╝╨░
+  float discount; // ╤Б╨║╨╕╨┤╨║╨░
   float itog;
 
-  printf("\nФОТО\n");
+  printf("\n╨д╨Ю╨в╨Ю\n");
 
-  printf("Формат:\n");
-  printf("1 - 9х12\n");
-  printf("2 - 12х15\n");
-  printf("3 - 18х24\n");
-  printf("Ваш выбор ->");
+  printf("╨д╨╛╤А╨╝╨░╤В:\n");
+  printf("1 - 9╤Е12\n");
+  printf("2 - 12╤Е15\n");
+  printf("3 - 18╤Е24\n");
+  printf("╨Т╨░╤И ╨▓╤Л╨▒╨╛╤А ->");
 
   scanf("%i",&f);
   switch ( f )
@@ -29,34 +29,4 @@ void main()
 
     default: cena = 0; break;
   }
-
-
-  printf("Количество (шт.) -> ");
-  scanf("%i",&k);
-
-
-
-  if ( cena != 0 )
-  {
-    sum = k * cena;
-    printf("\nЦена за шт.: %3.2f руб.", cena);
-    printf("\nКоличество: %i шт.", k);
-    if ( k > 10 )
-    {
-      discount = sum * 0.1;
-      itog = sum - discount;
-      printf("\nСумма: %3.2f руб",sum);
-      printf("\nСкидка: %3.2f руб", discount);
-      printf("\nК оплате: %3.2f руб",itog);
-
-    }
-    else
-      printf("\nК оплате: %3.2f руб.", sum);
-  }
-  else
-    printf("\nНеправильно указан код материала");
-
-  printf("\n\nДля завершения нажмите <Enter>");
-  getch();
-}
 
