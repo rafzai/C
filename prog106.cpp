@@ -30,3 +30,34 @@ void main()
     default: cena = 0; break;
   }
 
+
+  printf("Количество (шт.) -> ");
+  scanf("%i",&k);
+
+
+
+  if ( cena != 0 )
+  {
+    sum = k * cena;
+    printf("\nЦена за шт.: %3.2f руб.", cena);
+    printf("\nКоличество: %i шт.", k);
+    if ( k > 10 )
+    {
+      discount = sum * 0.1;
+      itog = sum - discount;
+      printf("\nСумма: %3.2f руб",sum);
+      printf("\nСкидка: %3.2f руб", discount);
+      printf("\nК оплате: %3.2f руб",itog);
+
+    }
+    else
+      printf("\nК оплате: %3.2f руб.", sum);
+  }
+  else
+    printf("\nНеправильно указан код материала");
+
+  printf("\n\nДля завершения нажмите <Enter>");
+  getch();
+}
+
+
