@@ -1,23 +1,23 @@
-// ÑÆÂÆ§ ØÆ ¢™´†§„
+// –î–æ—Ö–æ–¥ –ø–æ –≤–∫–ª–∞–¥—É
 #include "stdio.h"
 #include "conio.h"
 
 void main()
 {
 
-  float sum;     // ·„¨¨† ¢™´†§†
-  int period;    // ·‡Æ™
+  float sum;     // —Å—É–º–º–∞ –≤–∫–ª–∞–¥–∞
+  int period;    // —Å—Ä–æ–∫
 
-  float percent; // Ø‡ÆÊ•≠‚, ß†¢®·®‚ Æ‚ ·„¨¨Î
-  float profit;  // §ÆÂÆ§
+  float percent; // –ø—Ä–æ—Ü–µ–Ω—Ç, –∑–∞–≤–∏—Å–∏—Ç –æ—Ç —Å—É–º–º—ã
+  float profit;  // –¥–æ—Ö–æ–¥
 
-  float total;   // ·„¨¨† ¢ ™Æ≠Ê• ·‡Æ™† ¢™´†§†
-  printf("\nÑéïéÑ\n");
+  float total;   // —Å—É–º–º–∞ –≤ –∫–æ–Ω—Ü–µ —Å—Ä–æ–∫–∞ –≤–∫–ª–∞–¥–∞
+  printf("\n–î–û–•–û–î\n");
 
-  printf("ë„¨¨†, ‡„°. -> ");
+  printf("–°—É–º–º–∞, —Ä—É–±. -> ");
   scanf("%f",&sum);
 
-  printf("ë‡Æ™ ¢™´†§†, ¨•·. -> ");
+  printf("–°—Ä–æ–∫ –≤–∫–ª–∞–¥–∞, –º–µ—Å. -> ");
   scanf("%i",&period);
 
   if ( sum < 5000)
@@ -28,13 +28,14 @@ void main()
   profit = sum * percent/100/12 * period;
   total = sum + profit;
 
-  printf("\në„¨¨†: %3.2f ‡„°.", sum);
-  printf("\në‡Æ™ ¢™´†§†: %i ¨•·.", period);
-  printf("\nè‡ÆÊ•≠‚ £Æ§Æ¢Æ©: %2.2f", percent);
-  printf("\nÑÆÂÆ§: %3.2f ‡„°.", profit);
-  printf("\në„¨¨† ¢ ™Æ≠Ê• ·‡Æ™† ¢™´†§†: %3.2f ‡„°.", total);
+  printf("\n–°—É–º–º–∞: %3.2f —Ä—É–±.", sum);
+  printf("\n–°—Ä–æ–∫ –≤–∫–ª–∞–¥–∞: %i –º–µ—Å.", period);
+  printf("\n–ü—Ä–æ—Ü–µ–Ω—Ç –≥–æ–¥–æ–≤–æ–π: %2.2f", percent);
+  printf("\n–î–æ—Ö–æ–¥: %3.2f —Ä—É–±.", profit);
+  printf("\n–°—É–º–º–∞ –≤ –∫–æ–Ω—Ü–µ —Å—Ä–æ–∫–∞ –≤–∫–ª–∞–¥–∞: %3.2f —Ä—É–±.", total);
 
-  printf("\n\nÑ´Ô ß†¢•‡Ë•≠®Ô ≠†¶¨®‚• <Enter>");
+  printf("\n\n–î–ª—è –∑–∞–≤–µ—Ä—à–µ–Ω–∏—è –Ω–∞–∂–º–∏—Ç–µ <Enter>");
   getch();
 }
+
 
