@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    char word[] = "rafli";
+    
+    if (word[2] != '\0') {
+        printf("Third character: %c\n", word[2]);
+    } else {
+        printf("Word is too short.\n");
+    }
+
+    return 0;
+}
