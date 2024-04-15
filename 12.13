@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    char word[] = "привет";
+    int k = 2;
+    
+    printf("k-й символ слова: %c\n", word[k-1]);
+    
+    return 0;
+}
