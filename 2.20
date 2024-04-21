@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    float e, f, g, h, a, b, c;
+
+    // Ввод значений e, f, g и h
+    printf("Введите значение e: ");
+    scanf("%f", &e);
+    printf("Введите значение f: ");
+    scanf("%f", &f);
+    printf("Введите значение g: ");
+    scanf("%f", &g);
+    printf("Введите значение h: ");
+    scanf("%f", &h);
+
+    // Вычисление значения a
+    a = sqrt(fabs(pow(e - 3 / f, 3) + g));
+
+    // Вычисление значения b
+    b = sin(e) + pow(cos(h), 2);
+
+    // Вычисление значения c
+    c = 33 * g / (e * f - 3);
+
+    printf("Значение a: %f\n", a);
+    printf("Значение b: %f\n", b);
+    printf("Значение c: %f\n", c);
+
+    return 0;
+}
