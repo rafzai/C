@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    float a, b, x, y;
+
+    // Ввод значений a и b
+    printf("Введите значение a: ");
+    scanf("%f", &a);
+    printf("Введите значение b: ");
+    scanf("%f", &b);
+
+    // Вычисление значения x
+    x = (2 / (a * a + 25) / sqrt(b) + ((a +b) / 2));
+
+    // Вычисление значения y
+    y = fabs(a) + 2 * sin(b) / 5.5 * a;
+
+    printf("Значение x: %f\n", x);
+    printf("Значение y: %f\n", y);
+
+    return 0;
+}
