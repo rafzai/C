@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main() {
+    int a, b;
+    float sum = 0;
+    int count = 0;
+
+    // Ввод значений a и b
+    printf("Введите значение a: ");
+    scanf("%d", &a);
+    printf("Введите значение b: ");
+    scanf("%d", &b);
+
+    // Проверка условия b >= a
+    if (b < a) {
+        printf("Ошибка: b должно быть больше или равно a.\n");
+        return 0;
+    }
+
+    // Вычисление среднего арифметического
+    for (int i = a; i <= b; i++) {
+        sum += i;
+        count++;
+    }
+
+    float average = sum / count;
+
+    // Вывод результата
+    printf("Среднее арифметическое: %.2f\n", average);
+
+    return 0;
+}
