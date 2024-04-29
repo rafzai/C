@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    char word[] = "example";
+
+    if (word[1] == word[3]) {
+        printf("Second and fourth characters are the same.\n");
+    } else {
+        printf("Second and fourth characters are different.\n");
+    }
+
+    return 0;
+}
