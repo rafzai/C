@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char word[] = "radar";
+    
+    if (word[0] == word[strlen(word) - 1]) {
+        printf("The word starts and ends with the same letter.\n");
+    } else {
+        printf("The word does not start and end with the same letter.\n");
+    }
+
+    return 0;
+}
